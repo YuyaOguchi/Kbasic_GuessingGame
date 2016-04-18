@@ -1,0 +1,132 @@
+﻿Begin Form *
+    Caption = "Guessing Game"
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 378
+    LoadedHeight = 366
+    LoadedWidth = 492
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 480
+    X = 361
+    Y = 89
+
+
+  Begin CommandButton CommandButton1
+    Caption = "Easy"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 85
+    X = 23
+    Y = 114
+  End
+
+  Begin CommandButton CommandButton2
+    Caption = "Medium"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 85
+    X = 107
+    Y = 114
+  End
+
+  Begin CommandButton CommandButton3
+    Caption = "Hard"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 85
+    X = 199
+    Y = 114
+  End
+
+  Begin CommandButton CommandButton4
+    Caption = "Extreme"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 85
+    X = 289
+    Y = 114
+  End
+
+  Begin CommandButton CommandButton5
+    Caption = "Pro"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 85
+    X = 378
+    Y = 114
+  End
+
+  Begin TextBox TextBox1
+    DrawOnPaint = True
+    Enabled = True
+    Flat = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 44
+    IntegerMaximum = 0
+    ParentControl = ""
+    StringValue = "TextBox"
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 86
+    X = 65
+    Y = 235
+  End
+
+  Begin Label Label1
+    Caption = "Label"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = True
+    Width = 344
+    WordWrap = True
+    X = 58
+    Y = 160
+  End
+
+End Form

@@ -1,0 +1,534 @@
+﻿Begin Form *
+    Caption = "Please deduct 5 pts as I did not edit this!"
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 417
+    LoadedHeight = 414
+    LoadedWidth = 505
+    LoadedX = 287
+    LoadedY = 45
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 505
+    X = 287
+    Y = 45
+
+
+  Begin Label Label1
+    Background = "&H9922"
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Guesses"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 11
+    FontColor = "&H040CFF"
+    GlobalX = 0
+    GlobalY = 0
+    Height = 25
+    LoadedHeight = 25
+    LoadedWidth = 133
+    LoadedX = 351
+    LoadedY = 348
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 133
+    WordWrap = True
+    X = 351
+    Y = 348
+  End
+
+  Begin Label Label2
+    Background = "&H9922"
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Choose your level with care."
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 8
+    FontColor = "&H040CFF"
+    GlobalX = 0
+    GlobalY = 0
+    Height = 36
+    LoadedHeight = 36
+    LoadedWidth = 222
+    LoadedX = 22
+    LoadedY = 59
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 222
+    WordWrap = True
+    X = 22
+    Y = 59
+  End
+
+  Begin Label lblInstruction
+    Background = "&H9922"
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Pick your level to start playing"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 4
+    FontColor = "&H040CFF"
+    FontSize = 20
+    GlobalX = 0
+    GlobalY = 0
+    Height = 90
+    LoadedHeight = 90
+    LoadedWidth = 457
+    LoadedX = 23
+    LoadedY = 150
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 457
+    WordWrap = True
+    X = 21
+    Y = 150
+  End
+
+  Begin Label Label4
+    Background = "&H9922"
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Guessing Game"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    FontColor = "&H040CFF"
+    FontSize = 20
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    LoadedHeight = 37
+    LoadedWidth = 219
+    LoadedX = 24
+    LoadedY = 12
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 219
+    WordWrap = True
+    X = 23
+    Y = 11
+  End
+
+  Begin CommandButton CmdInsane
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Insane"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 12
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    LoadedHeight = 37
+    LoadedWidth = 109
+    LoadedX = 382
+    LoadedY = 110
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 109
+    X = 382
+    Y = 110
+  End
+
+  Begin CommandButton CmdHard
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Hard"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 7
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    LoadedHeight = 37
+    LoadedWidth = 109
+    LoadedX = 271
+    LoadedY = 110
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 109
+    X = 271
+    Y = 109
+  End
+
+  Begin CommandButton cmdMed
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Average"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 5
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    LoadedHeight = 37
+    LoadedWidth = 109
+    LoadedX = 155
+    LoadedY = 108
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 109
+    X = 155
+    Y = 108
+  End
+
+  Begin CommandButton cmdeasy
+    Background = "&H0080FFFF"
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Easy"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 3
+    FontSize = 24
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    LoadedHeight = 37
+    LoadedWidth = 121
+    LoadedX = 33
+    LoadedY = 105
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 121
+    X = 33
+    Y = 105
+  End
+
+  Begin CommandButton CmdGuess
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Guess"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 1
+    GlobalX = 0
+    GlobalY = 0
+    Height = 49
+    LoadedHeight = 49
+    LoadedWidth = 169
+    LoadedX = 23
+    LoadedY = 335
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 169
+    X = 23
+    Y = 335
+  End
+
+  Begin CommandButton cmdQuit
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "OK I have had enough"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 51
+    LoadedHeight = 51
+    LoadedWidth = 177
+    LoadedX = 296
+    LoadedY = 22
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 177
+    X = 295
+    Y = 20
+  End
+
+  Begin TextBox txtcount
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    DrawOnPaint = True
+    Enabled = True
+    Flat = True
+    FocusOrder = 10
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    IntegerMaximum = 0
+    LoadedHeight = 37
+    LoadedWidth = 61
+    LoadedX = 281
+    LoadedY = 341
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    StringValue = ""
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 61
+    X = 281
+    Y = 341
+  End
+
+  Begin TextBox txtuserguess
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    DrawOnPaint = True
+    Enabled = True
+    Flat = True
+    FocusOrder = 2
+    GlobalX = 0
+    GlobalY = 0
+    Height = 37
+    IntegerMaximum = 0
+    LoadedHeight = 37
+    LoadedWidth = 217
+    LoadedX = 26
+    LoadedY = 287
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    StringValue = ""
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 217
+    X = 26
+    Y = 287
+  End
+
+  Begin Label lbldebug
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 10
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 10
+    WordWrap = True
+    X = 220
+    Y = 252
+  End
+
+End Form
+/*
+Author:Yuya Oguchi
+10/4/12
+Ver 1.1
+*/
+
+
+/*
+Randomize 
+Number = Int(level*rnd) +1
+
+Lbl = Im thinking of number btw 0- & str(level)
+
+
+If guess = number then msg (“correct”)
+Elseif guess> number then 
+msg (“too high”)
+
+
+Dim response 
+Response = msg” do u really want to quit, kbretry cancel “guessing game”
+Lbldebug.Caption = response
+*/
+
+
+Dim Number As Integer
+Dim Counter As Integer
+
+/* Generate random number to play guessing game with. 
+it changes everytime you select difficulty level
+*/
+Private Sub setNumber(level As Integer)
+  
+  Randomize /* sets a seed */
+  Number = Int(level * Rnd) + 1 /* Rnd generates a number between 0 and 1, the Int function will round the value*/
+
+  'the str function converts a number to a string
+  lblInstruction.Caption = "I am thinking of a number from 0 up to  " & str(level)
+  Counter = 0
+
+End Sub
+
+
+/* select the game level. 
+it decides the range of number to select from in randomize*/
+
+Private Sub cmdEasy_OnEvent()
+  setNumber(10)
+  cmdguess.enabled = True
+End Sub
+
+Private Sub cmdMed_OnEvent()
+  setNumber(20)
+  cmdguess.enabled = True
+End Sub
+
+Private Sub cmdHard_OnEvent()
+  setNumber(50)
+  cmdguess.enabled = True
+End Sub
+
+Private Sub CmdInsane_OnEvent()
+  setNumber(500)
+  cmdguess.enabled = True
+End Sub
+
+dim guess as integer
+
+/* Guess check to see if the value you put in is correct, show correct and select new game,
+if not, display either too high or too low and increase the counter guess*/
+
+Private Sub cmdGuess_OnEvent()
+  
+  guess = Val(txtuserguess.value)
+  'Read input from user
+  
+  /* display the number of guesses you took*/
+  Counter = Counter + 1
+  txtCount.text = str(Counter)
+  
+  if guess = number then msgbox("Correct")
+  
+  if guess > number then msgbox("too high")
+    
+  if guess < number then msgbox("too low")
+  
+  if counter = 5 then lblInstruction.caption = "Game Over! Too many guesses. Pick your level"
+  if counter = 5 then cmdguess.enabled = False
+
+ 
+End Sub
+
+/*
+if click ok on quit, then quit application, 
+if click cancel, then go back to the application and bring back to the original form
+*/
+Private Sub cmdQuit_OnEvent()
+  
+Dim response as integer
+
+Response = msgbox("Rgiht answer was " & number & " do you really want to quit?",kbretrycancel)
+lbldebug.caption=response
+
+
+if response = 2 then resetgame()
+if response = 1 then exitgame()
+
+
+
+  'display the correct answer
+  
+  'offer to reset the game or exit
+
+  
+End Sub
+
+
+Private sub exitGame 
+  end
+End Sub
+
+Private Sub resetGame  
+txtcount.text = " "
+lblInstruction.caption = "Pick your level to start playing"
+  'Reset the game back to the starting displays and variable values
+  
+End Sub
+
+
+
+
